@@ -11,7 +11,7 @@ using Phonebook.Data.Models;
 namespace src.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class ContactsController : ControllerBase
     {
         #region Properties
