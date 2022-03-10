@@ -11,7 +11,7 @@ export class AppComponent implements OnInit{
   contacts: any;
 
   constructor(private http: HttpClient) {}
-  ngOnInit() {
+  ngOnInit() { 
     this.getContacts();
   }
 
